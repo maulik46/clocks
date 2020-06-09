@@ -202,7 +202,8 @@
         $('.owl-carousel').owlCarousel({
             loop: false,
             margin: 0,
-            nav: false,
+            nav: true,
+            dots:false,
             items: 2,
             responsive:{
                 0:{
@@ -219,6 +220,12 @@
                 }
             }
         });
+        // next and previous button in slider
+        $('.owl-next,.owl-prev').find('span').empty();
+        $('.owl-next').find('span').append('<img src="images/next.svg" height="14px">');
+        $('.owl-prev').find('span').append('<img src="images/back.svg" height="14px">');
+        $('.owl-next,.owl-prev').find('span').addClass('btn btn-sm bg-blue');
+        // next and previous button in slider
     </script>
     <!-- slider js code over -->
 </body>

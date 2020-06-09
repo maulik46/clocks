@@ -97,7 +97,7 @@ input[type="file"] {
 .preview-img-rounde{
     height:300px;
     width:300px;
-    background-color: plum;
+    background-color: lightgray;
     border-radius: 50%;
     background-position: center;
     background-repeat: no-repeat;

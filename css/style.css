@@ -69,10 +69,8 @@ form .badge{
     cursor: pointer;
     padding: 2px;
 }
-
-.my-circle label img {
-    transition-duration: 0.2s;
-    transform-origin: 50% 50%;
+.my-circle label:hover{
+    border-color: var(--info);
 }
 
 :checked+label {

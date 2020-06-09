@@ -69,13 +69,19 @@ form .badge{
     cursor: pointer;
     padding: 2px;
 }
+
+/* -------box hover---------- */
+
 .my-circle label:hover{
     border-color: var(--info);
 }
 
-:checked+label {
+/*------------ box checked ------------- */
+
+/* :checked+label {
     border-color: var(--info);
-}
+} */
+
 
 input[type="file"] {
     display: none;

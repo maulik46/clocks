@@ -1,0 +1,101 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.title-color{
+    color:#4646a4;
+}
+.bg-blue{
+    background-color: #48ade0;
+}
+hr{
+    border-top:1px solid lightgray;
+}
+table tr{
+    font-size: 14px;
+    color:#000;
+}
+table thead tr th{
+    font-weight: bold;
+}
+table td{
+    padding: 8px!important;
+    vertical-align: middle !important;
+}
+table .delete:hover{
+    opacity: 0.6;
+}
+form label{
+    font-weight: 400;
+}
+form .badge{
+    font-size: 17px;
+    background-color: lightgray;
+}
+.blue-circle1{
+    height:140px;
+    width: 140px;
+}
+.blue-circle2 {
+    height: 160px;
+    width: 160px;
+}
+.blue-circle3 {
+    height: 200px;
+    width: 200px;
+}
+.blue-circle1,
+.blue-circle2,
+.blue-circle3
+{
+    background-color:#48ade0;
+    border-radius: 50%;
+    
+}
+
+
+
+.my-circle input[type="radio"][class="myCheckbox"] {
+    display: none;
+}
+
+.my-circle label {
+    border: 1px solid #d8d8d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.my-circle label img {
+    transition-duration: 0.2s;
+    transform-origin: 50% 50%;
+}
+
+:checked+label {
+    border-color: var(--info);
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 5px 25px;
+    cursor: pointer;
+    margin-top: 5px;
+    background-color: #48ade0;
+}
+.preview-img-rounde{
+    height:300px;
+    width:300px;
+    background-color: plum;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

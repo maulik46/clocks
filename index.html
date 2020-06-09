@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="d-flex justify-content-center flex-wrap">
+        <div class="col-lg-9 col-md-12 px-0">
+            <div class="container-lg my-4 px-md-2 px-1">
+                <h2 class="title-color">KOSARICA</h2>
+                <hr>
+                <div class="table-responsive">
+                    <table class="table table-striped mb-0">
+                        <thead>
+                            <tr>
+                                <th class="text-left border-0">Predogled</th>
+                                <th class="text-left w-50 border-0">Model</th>
+                                <th class="text-left border-0">Kolicina</th>
+                                <th class="border-0">Cena/cos</th>
+                                <th class="border-0">Cena</th>
+                                <th class="text-center border-0">Odstrani</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="rounded-circle" style="width: 35px;height:35px;background-color: orange;"></div>
+                                </td>
+                                <td class="text-left w-50">Ura opis</td>
+                                <td class="text-left">
+                                    <span class="btn bg-white btn-sm border">99</span>
+                                    <a href="" class="link">osvezi</a>
+                                </td>
+                                <td>2,00 &euro;</td>
+                                <td>2,00 &euro;</td>
+                                <td class="text-center">
+                                    <a href="" class="delete"><img src="images/dustbin.svg" alt="delete" height="18px"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"></td>
+                                <td class="text-left h5" colspan="2">Skupaj:</td>
+                                <td class="text-left h5 font-weight-bold" colspan="2">8,00 &euro;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <hr class="mt-1">
+                </div>
+
+
+                <h4 class="px-2 px-sm-0">Narocilinica</h4>
+                <div class="mt-4 px-2 px-sm-0">
+                    <form>
+                        <div class="row mx-0 my-2">
+                            <div class="col-md-5">
+                                <label>lme</label>
+                                <input type="text" class="form-control shadow-none border">
+                            </div>
+                            <div class="col-md-5">
+                                <label>Priimek</label>
+                                <input type="text" class="form-control shadow-none border">
+                            </div>
+                        </div>
+                        <div class="row mx-0 my-2">
+                            <div class="col-md-5">
+                                <label>Ulica in hisna stevilka</label>
+                                <div class="row">
+                                    <div class="col-8">
+                                        <input type="text" class="form-control shadow-none border">
+                                    </div>
+                                    <div class="col-4">
+                                        <input type="text" class="form-control shadow-none border">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <label>kraj</label>
+                                <input type="text" class="form-control shadow-none border">
+                            </div>
+                            <div class="col-md-2">
+                                <label>Postna stevilka</label>
+                                <input type="text" class="form-control shadow-none border">
+                            </div>
+                        </div>
+                        <div class="row mx-0 my-2">
+                            <div class="col-md-5">
+                                <label>E-posta</label>
+                                <input type="text" class="form-control shadow-none border">
+                            </div>
+                            <div class="col-md-3">
+                                <label>Telefon</label>
+                                <input type="text" class="form-control shadow-none border">
+                            </div>
+                        </div>
+                        <div class="row mx-0 mt-2">
+                            
+                                <label class="col-auto">Nacin placila</label>
+                                <div class="col-md-3">
+                                    <div>
+                                        <input type="radio" name="xyz" id="r1">
+                                        <label for="r1" class="font-weight-bold">Nakazilo na TRR</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" name="xyz" id="r2">
+                                        <label for="r2" class="font-weight-bold">Ob prevzetju</label>
+                                    </div>
+                                </div>
+                           
+                        </div>
+                        <div class="text-right">
+                            <input type="submit" class="btn btn-danger" value="Zkalijuci nakup">
+                        </div>
+                        
+                    </form>
+                    <hr>
+                </div>
+
+            </div>
+        </div>
+    </main>
+</body>
+</html>
